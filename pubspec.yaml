@@ -5,24 +5,25 @@ homepage: https://github.com/BirdyF/strava_flutter
 
 environment:
   #sdk: ">=2.0.0-dev.68.0 <3.0.0"
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
+
   
 dependencies:
   flutter:
     sdk: flutter
 
-  http: ^0.12.0+1 
-  url_launcher: ^5.4.5  
-  shared_preferences: ^0.5.0
+  http: 
+  url_launcher: 
+  shared_preferences: 
  
-  uni_links: ^0.4.0
+  uni_links: 
 
   #intl: ^0.15.8
-  intl: ^0.16.0
+  intl: 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
+  cupertino_icons: 
 
 
 dev_dependencies:

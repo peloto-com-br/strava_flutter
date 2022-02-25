@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.example">
 
+    
+
     <!-- The INTERNET permission is required for development. Specifically,
          flutter needs it to communicate with the running application
          to allow setting breakpoints, to provide hot reload, etc.
@@ -16,7 +18,7 @@
     <!-- line below
      android:usesCleartextTraffic="true" is needed to do Strava Auth on Android Pie (9.0) -->
     <application
-        android:name="io.flutter.app.FlutterApplication"
+        android:name="${applicationName}"
         android:label="example"
         android:icon="@mipmap/ic_launcher">
         <activity
