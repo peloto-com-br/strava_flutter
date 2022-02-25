@@ -14,7 +14,6 @@ import 'package:strava_flutter/strava.dart';
 // Used by example
 
 import 'package:strava_flutter/Models/activity.dart';
-import 'package:strava_flutter/API/activities.dart';
 import 'package:strava_flutter/Models/club.dart';
 import 'package:strava_flutter/Models/detailedAthlete.dart';
 import 'package:strava_flutter/Models/gear.dart';
@@ -52,6 +51,8 @@ class StravaFlutterPage extends StatefulWidget {
 }
 
 class _StravaFlutterPageState extends State<StravaFlutterPage> {
+  String secret;
+
   @override
   void initState() {
     setState(() {
